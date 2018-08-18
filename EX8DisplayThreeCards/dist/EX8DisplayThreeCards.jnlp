@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="EX8DisplayThreeCards.jnlp">
+  <information>
+    <title>EX8DisplayThreeCards</title>
+    <vendor>Alex Thunderhunter</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="EX8DisplayThreeCards.jar" size="4227140" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="EX8DisplayThreeCards" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="ex8displaythreecards.EX8DisplayThreeCards"  name="EX8DisplayThreeCards" />
+  <update check="always"/>
+</jnlp>
